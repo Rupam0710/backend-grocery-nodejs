@@ -1,0 +1,22 @@
+1. npm install express mysql cors dotenv - 
+
+express : popular node.js web application framework used for building web application and APIs
+mysql : Node.js driver for mysql, allowing you to interact with the mysql databases from your ode.js application
+cors : node.js package that provides middleware for handling crossorigin resources sharing in express.js application
+dotenv: this is a zero dependency module that loads environent variable form a .env file into process.env making it easy to manage configuration settings for your node.js application
+
+
+2. npm install nodemon - 
+
+nodemon : it is a utility that monitors for changes in your node.js application and automatically restarts the server when the changes are detected, which s very useful during development
+
+3. npm install --save jsonwebtoken nodemailer - 
+
+jsonwebtoken : this package allows you to generate and verify json web tokens(JWT) in node.js. JWTs are commonly used for implementing authentication and authorization mechanism in web application
+
+nodemailer : ths package enables you to send email messages fro your node.js application.It supports various transport methods such as smtp, snedmail and more making it fleible for different email sending needs.
+
+4. a. node 
+   b. require('crypto').randomBytes(64).toString('hex') - 
+
+   to generate access token for jwt.
